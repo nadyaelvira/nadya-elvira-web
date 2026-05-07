@@ -22,8 +22,16 @@ export default function HolidayPage() {
                     </div>
                 </div>
 
-                <div className="bg-black h-10 rounded-full">
-                    <p className="text-white">Search flight</p>
+                <div className="flex gap-2 justify-center items-center">
+                    <div className="bg-black h-8 w-43 rounded-full flex justify-center items-center">
+                        <button className="text-white">Search flight</button>
+                    </div>
+
+                    <div>
+                    <button className="flex justify-center items-center rounded-full h-8 w-8 bg-white border-2 border-gray-300">
+                        <img src="/heart.svg" className="h-5 w-5"/>
+                    </button>
+                    </div>
                 </div>
 
             </div>
